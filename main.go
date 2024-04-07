@@ -19,7 +19,7 @@ func (f *FileVar) String() string {
 		return ""
 	}
 
-	return f.File.Name()
+	return f.Name()
 }
 
 // Set is called once, in command line order, for each flag present.
